@@ -1,4 +1,177 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais FinChat
+PRD refinado no Coplilot
+
+```Markdown
+
+1. Visão Geral do Produto
+Criar um aplicativo de organização financeira pessoal baseado em conversas, acessível para qualquer pessoa, independentemente de idade, experiência com tecnologia ou necessidades específicas. O app deve permitir registrar gastos, acompanhar metas e receber orientações financeiras de forma simples, natural e inclusiva.
+
+2. Princípios de Design Universal Aplicados
+
+2.1. Uso Equitativo
+O app deve funcionar bem para iniciantes e usuários experientes. A experiência conversacional deve permitir uso sem navegação complexa. Todas as informações devem estar disponíveis em linguagem simples.
+
+2.2. Flexibilidade no Uso
+Permitir interação por texto digitado, comandos de voz (futuro) e botões rápidos. Usuário pode registrar gastos de várias formas, como “Gastei 20 reais com Uber” ou selecionando categorias.
+
+2.3. Simplicidade e Intuitividade
+Fluxos curtos e guiados. O agente explica o que está fazendo quando necessário. Evitar jargões financeiros.
+
+2.4. Informação Perceptível
+Contraste adequado, ícones acompanhados de texto, gráficos com descrição alternativa e resumos em texto simples.
+
+2.5. Tolerância ao Erro
+Confirmações quando houver ambiguidade. Possibilidade de desfazer ações. Sugestões automáticas quando o usuário se confunde.
+
+2.6. Baixo Esforço Físico
+Poucos toques para registrar um gasto. Botões grandes. Chat como interface principal.
+
+2.7. Tamanho e Espaço Adequados
+Layout responsivo, espaçamento confortável e opção de aumentar fonte.
+
+3. Problema
+Muitas pessoas abandonam o controle financeiro porque os apps atuais exigem entrada manual excessiva, telas complexas e linguagem técnica. O objetivo é resolver isso com uma experiência conversacional simples, acessível e personalizada.
+
+4. Público-Alvo
+Pessoas iniciantes em organização financeira, usuários com baixa familiaridade com tecnologia, pessoas que preferem conversar em vez de preencher formulários e usuários com necessidades de acessibilidade.
+
+5. Funcionalidades-Chave
+
+5.1. Registro de Gastos via Chat
+Linguagem natural, perguntas complementares, sugestões automáticas de categorias e botões rápidos.
+
+5.2. Classificação Automática
+IA identifica categoria e método de pagamento. Usuário pode corrigir facilmente. Explicações curtas quando a IA não entender.
+
+5.3. Metas Financeiras
+Criação de metas por conversa, sugestões prontas e acompanhamento semanal.
+
+5.4. Agente Financeiro
+Tom educativo e amigável. Explicações simples e dicas personalizadas.
+
+5.5. Relatórios Acessíveis
+Texto simples, gráficos com descrição alternativa e comparações mensais em linguagem natural.
+
+6. Fluxos-Chave
+
+6.1. Registrar Gasto
+Usuário informa gasto. App confirma categoria. Pergunta informações faltantes. Registra e mostra resumo curto.
+
+6.2. Criar Meta
+Usuário expressa intenção. App sugere metas prontas. Usuário escolhe ou ajusta. App acompanha semanalmente.
+
+6.3. Ver Resumo
+Usuário solicita resumo. App responde com texto simples, gráfico acessível e insights curtos.
+
+7. Critérios de Sucesso do MVP
+Registrar um gasto em menos de 10 segundos. 80% das transações classificadas automaticamente. 90% entendem o resumo financeiro. 70% criam pelo menos uma meta no primeiro mês.
+
+8. Restrições e Premissas
+MVP sem conexão bancária. Foco em simplicidade. Chat como interface principal. Acessibilidade como requisito.
+
+9. Plano de MVP
+
+9.1. Telas Principais
+Tela de Chat, Resumo Mensal, Metas e Configurações de Acessibilidade.
+
+9.2. Recursos Necessários
+Motor de NLP, classificador de categorias, sistema de metas e alertas e módulo de acessibilidade.
+
+9.3. Validação Inicial
+Testes com usuários iniciantes, pessoas com baixa visão e pessoas que nunca usaram apps financeiros.
+
+10. Conclusão
+O PRD garante que o app seja simples, inclusivo, acessível, eficiente e acolhedor, adequado para quem precisa começar a organizar suas finanças de forma prática.
+```
+
+Site/sistema final no Lovable
+https://converse-your-cash.lovable.app/
+
+<img width="525" height="909" alt="image" src="https://github.com/user-attachments/assets/1275e066-ed35-4126-b9f7-996a164aba85" />
+
+🧾 Resumo das Funcionalidades — Converse Your Cash
+O Converse Your Cash é um aplicativo conversacional de finanças pessoais projetado para ser simples, acessível e intuitivo. Ele permite que qualquer pessoa organize sua vida financeira apenas conversando com o sistema.
+
+🚀 1. Interface Conversacional (Chat Financeiro)
+O chat é o centro da experiência. Por meio dele, o usuário pode:
+- Registrar gastos em linguagem natural
+- Fazer perguntas sobre sua situação financeira
+- Criar metas
+- Receber dicas e insights
+- Corrigir informações rapidamente
+Exemplos de uso:
+- “Gastei 25 reais no mercado.”
+- “Como estou indo este mês?”
+- “Quero gastar menos com delivery.”
+
+💸 2. Registro Inteligente de Gastos
+O sistema interpreta automaticamente:
+- Valor
+- Categoria
+- Data
+- Tipo de gasto
+Se faltar alguma informação, o app pergunta de forma simples e direta.
+
+🧠 3. Classificação Automática
+A IA classifica cada gasto em categorias como:
+- Alimentação
+- Transporte
+- Lazer
+- Contas
+- Outros
+O usuário pode corrigir via chat, e o sistema aprende com o tempo.
+
+🎯 4. Metas Financeiras
+O usuário pode criar metas de forma natural:
+- “Quero gastar até 300 reais com alimentação.”
+- “Quero economizar 200 reais este mês.”
+O sistema acompanha o progresso e envia alertas quando necessário.
+
+📊 5. Relatórios e Resumos Financeiros
+O app apresenta:
+- Total gasto no mês
+- Categorias que mais consomem dinheiro
+- Comparação com meses anteriores
+- Insights simples e personalizados
+Tudo em linguagem acessível, com gráficos e descrições alternativas.
+
+🧑‍🏫 6. Agente Financeiro Educativo
+O agente conversa com o usuário oferecendo:
+- Dicas de economia
+- Alertas de comportamento financeiro
+- Explicações simples sobre padrões de gastos
+- Sugestões de metas e melhorias
+Sempre com tom amigável e educativo.
+
+♿ 7. Design Universal e Acessibilidade
+O sistema foi pensado para ser inclusivo:
+- Linguagem clara e acessível
+- Botões grandes e fáceis de clicar
+- Fluxos simples e guiados
+- Gráficos com descrição alternativa
+- Layout responsivo
+- Possibilidade de uso apenas pelo chat
+
+🧪 8. Estrutura do MVP
+O sistema atual inclui:
+- Tela principal de chat
+- Tela de resumo financeiro
+- Tela de metas
+- Configurações básicas
+Essas telas refletem o PRD e garantem uma experiência mínima completa.
+
+
+#Reflexão
+### O que funcionou bem?
+O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+
+### O que não funcionou como o esperado?
+Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feita já foram de grande valia para aprender mais sobre Vibe Coding.
+
+### O que aprendeu sobre conversar com IAs?
+Aprendi que é basicamente igual a conversar com uma pessoa, quanto mais detalhes e clareza você dá, melhor é a interações.
+
+#####################################################################
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -87,3 +260,5 @@ No README do seu repositório, inclua:
 ## 💬 Conclusão
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+
