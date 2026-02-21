@@ -1,3 +1,6 @@
+## 🎯 Desafio DIO
+Desafio de criar um Chat para finanças usando a plataforma Lovable como ferramenta deste MVP
+
 # 💸 App de Organização de Finanças Pessoais FinChat
 PRD refinado no Coplilot
 
